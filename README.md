@@ -1,4 +1,4 @@
-# medianova
+# vuejssingup
 
 ## Project setup
 ```
