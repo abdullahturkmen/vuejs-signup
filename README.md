@@ -1,24 +1,25 @@
-# vuejssingup
+# VueJs Signup
 
-## Project setup
+>**Demo** : [vuejs-signup](https://vuejs-signup.netlify.app/)
+
+
+Herkese selam. Geçen ay bir firmada işe giriş için case yollamışlardı fakat o zaman yapmamıştım. Bir işe girdikten sonra daha fazla motivasyona sahip olduğumu düşündüğüm için bu caseleri de yaparak çalışmalarımın arasında yer edinmesini istedim. 
+
+Benden istenenler şu şekildeydi; bir figma tasarımı gönderildi ve bir API adresine Axios kütüphanesi kullanarak istek atmam daha sonrasında istek geçerli bir response status alırsa (201) bundan sonra kendi sitelerine yönlendirme istemişlerdi fakat ona gerek kalmadı. Ben de ekstradan sweetalert ekleyerek kullanıcıya olumlu mesaj dönmek istedim.
+
+
+## Kurulum
+
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Bu komut ile öncelikle 'node_modules' gerekli dosyaları getirir ve projemiz çalıştırmaya hazır hale gelir.
+
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Bu komut ile projemiz çalıştırılır ve bize localhostta çalışmaya başlar.
